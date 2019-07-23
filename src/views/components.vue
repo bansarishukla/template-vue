@@ -1,6 +1,7 @@
 <template>
-  <div class="components">
-    <h1>This is component page</h1>
-    <bansari></bansari>
+  <div class="container">
+    <p style="font-size: 20px;" class="pull-left">
+      Admin Components <span style="font-size: 10px;">hello everyone</span>
+    </p>
   </div>
-</template
+</template>

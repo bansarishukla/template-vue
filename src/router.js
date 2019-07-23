@@ -1,14 +1,13 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Dashboard from "./views/dashboard.vue";
-import Components from "./views/components_page";
+import components from "./views/components";
 import Features from "./views/Features.vue";
 import apps_page from "./views/apps_page";
 import Data from "./views/Data.vue";
 import Forms from "./views/Forms.vue";
 
 Vue.use(Router);
-
 export default new Router({
   routes: [
     {
@@ -19,7 +18,7 @@ export default new Router({
     {
       path: "/components",
       name: "components",
-      component: Components
+      component: components
     },
     {
       path: "/features",
