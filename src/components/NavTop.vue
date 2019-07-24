@@ -17,14 +17,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
-            <form class="form-inline my-2 my-lg-0 spacing input-icons">
+            <form class="form-inline my-2 my-lg-0 spacing input-icons aaa">
               <i class="fa fa-search pos" aria-hidden="true"></i>
               <input
                 class="form-control mr-sm-2 icon_spacing"
                 type="search"
                 placeholder="Search from here...."
                 aria-label="Search"
-                style="width: 500px;"
+
               />
             </form>
           </ul>
@@ -94,7 +94,7 @@ export default {
   margin: 8% 8% 0 8%;
 }
 .form-control {
-  border: none;
+  width: 500px;
 }
 .input-icons i {
   position: absolute;
@@ -145,6 +145,9 @@ ul li {
   }
   .effect {
     margin: 6% 1% 0 1%;
+  }
+  .form-control {
+    width: 400px;
   }
 }
 </style>

@@ -169,9 +169,12 @@
             <div class="card-header">
               <p class="font-formation text-left">
                 DAILY VISIT<span class="pull-right icons_formation">
-                  <i class="fa fa-refresh icons_formation" aria-hidden="true"></i>
-                  <i class="fa fa-caret-down icons_formation" aria-hidden="true"></i>
-                  <i class="fa fa-times icons_formation" aria-hidden="true"></i>
+                  <i class="fa fa-refresh icons_formation" aria-hidden="true" />
+                  <i
+                    class="fa fa-caret-down icons_formation"
+                    aria-hidden="true"
+                  />
+                  <i class="fa fa-times icons_formation" aria-hidden="true" />
                 </span>
               </p>
             </div>
@@ -188,8 +191,12 @@
             <div class="card-header">
               <p class="font-formation text-left">
                 VISITOR GRAPH<span class="pull-right icons_formation">
-                  <i class="fa fa-refresh icons_formation" aria-hidden="true"></i>
-                  <i class="fa fa-caret-down icons_formation" aria-hidden="true"></i>
+                  <i
+                    class="fa fa-refresh icons_formation"
+                    aria-hidden="true"></i>
+                  <i
+                    class="fa fa-caret-down icons_formation"
+                    aria-hidden="true"></i>
                   <i class="fa fa-times icons_formation" aria-hidden="true"></i>
                 </span>
               </p>

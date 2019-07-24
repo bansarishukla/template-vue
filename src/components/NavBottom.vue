@@ -72,20 +72,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.aaa {
-  color: white;
-  padding: 0 50px 0 50px;
-  margin: 0 50px 0 0;
-}
 .navbar {
   background-color: #2e3e4e;
   color: #808a93;
 }
-.navbar-toggler {
-  background: #2e3e4e;
-}
 .navbar-toggler-icon {
-  background: gray;
+  /* background: white; */
+  background-color: dimgray;
 }
 .alignment {
   margin: 0 0 0 17.5%;
