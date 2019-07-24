@@ -6,6 +6,8 @@ import Features from "./views/Features.vue";
 import apps_page from "./views/apps_page";
 import Data from "./views/Data.vue";
 import Forms from "./views/Forms.vue";
+import Home from "./views/Home.vue";
+import About from "./views/About.vue";
 
 Vue.use(Router);
 export default new Router({
@@ -39,6 +41,16 @@ export default new Router({
       path: "/forms",
       name: "forms",
       component: Forms
+    },
+    {
+      path: "/home",
+      name: "home",
+      component: Home
+    },
+    {
+      path: "/about",
+      name: "about",
+      component: About
     }
   ]
 });

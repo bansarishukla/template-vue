@@ -1,20 +1,20 @@
 <template>
   <div class="hello">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="container">
-        <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="container-fluid alignment">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <router-link to="/" class="nav-link text-secondary" href="#">
@@ -63,7 +63,7 @@
 
 <script>
 export default {
-  name: "NavBar",
+  name: "NavBarBottom",
   props: {
     msg: String
   }
@@ -80,5 +80,14 @@ export default {
 .navbar {
   background-color: #2e3e4e;
   color: #808a93;
+}
+.navbar-toggler {
+  background: #2e3e4e;
+}
+.navbar-toggler-icon {
+  background: gray;
+}
+.alignment {
+  margin: 0 0 0 17.5%;
 }
 </style>

@@ -8,24 +8,24 @@
               Admin Dashboard
               <span style="font-size: 10px;">hello everyone</span>
             </p>
-            <!-- <ul class="navbar-nav">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <router-link
-                  to="/"
+                  to="/about"
                   class="nav-link text-secondary pull-right"
                   href="#"
                 >
-                  Dashboard
+                  About
                 </router-link>
                 <router-link
-                  to="/"
+                  to="/home"
                   class="nav-link text-secondary pull-right"
                   href="#"
                 >
-                  Home
+                  Home /
                 </router-link>
               </li>
-            </ul> -->
+            </ul>
           </div>
         </div>
       </div>
@@ -169,9 +169,9 @@
             <div class="card-header">
               <p class="font-formation text-left">
                 DAILY VISIT<span class="pull-right icons_formation">
-                  <i class="fa fa-refresh" aria-hidden="true"></i>
-                  <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  <i class="fa fa-times" aria-hidden="true"></i>
+                  <i class="fa fa-refresh icons_formation" aria-hidden="true"></i>
+                  <i class="fa fa-caret-down icons_formation" aria-hidden="true"></i>
+                  <i class="fa fa-times icons_formation" aria-hidden="true"></i>
                 </span>
               </p>
             </div>
@@ -188,9 +188,9 @@
             <div class="card-header">
               <p class="font-formation text-left">
                 VISITOR GRAPH<span class="pull-right icons_formation">
-                  <i class="fa fa-refresh" aria-hidden="true"></i>
-                  <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  <i class="fa fa-times" aria-hidden="true"></i>
+                  <i class="fa fa-refresh icons_formation" aria-hidden="true"></i>
+                  <i class="fa fa-caret-down icons_formation" aria-hidden="true"></i>
+                  <i class="fa fa-times icons_formation" aria-hidden="true"></i>
                 </span>
               </p>
             </div>
@@ -207,9 +207,11 @@
             <div class="card-header">
               <p class="font-formation text-left">
                 RANDOM GRAPH<span class="pull-right icons_formation">
-                  <i class="fa fa-refresh" aria-hidden="true"></i>
-                  <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  <i class="fa fa-times" aria-hidden="true"></i>
+                  <i class="fa fa-refresh icons_formation" aria-hidden="true">
+                  </i>
+                  <i class="fa fa-caret-down icons_formation" aria-hidden="true">
+                  </i>
+                  <i class="fa fa-times icons_formation" aria-hidden="true"></i>
                 </span>
               </p>
             </div>

@@ -1,5 +1,10 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h3 class="font-styling">This is an about page</h3>
   </div>
 </template>
+<style scoped>
+.font-styling {
+  padding: 50px;
+}
+</style>
