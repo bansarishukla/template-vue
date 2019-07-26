@@ -3,7 +3,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "chart.js";
+import VModal from "vue-js-modal";
 
+Vue.use(VModal);
 Vue.component("NavTop", require("./components/NavTop.vue").default);
 Vue.component("NavBottom", require("./components/NavBottom.vue").default);
 Vue.config.productionTip = false;

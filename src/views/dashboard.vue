@@ -10,12 +10,13 @@
             </p>
             <ul class="navbar-nav">
               <li class="nav-item">
+                <modal />
                 <router-link
                   to="/about"
                   class="nav-link text-secondary pull-right"
                   href="#"
                 >
-                  About
+                  About /
                 </router-link>
                 <router-link
                   to="/home"
@@ -241,13 +242,15 @@ import LineChart from "./LineChart";
 import DoughnutChart from "./DoughnutChart";
 import PieChart from "./PieChart";
 import LineChartBottom from "./LineChartBottom";
+import modal from "./modal";
 export default {
   components: {
     BarChart,
     LineChart,
     DoughnutChart,
     PieChart,
-    LineChartBottom
+    LineChartBottom,
+    modal
   }
 };
 </script>
