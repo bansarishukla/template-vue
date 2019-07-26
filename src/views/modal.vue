@@ -12,20 +12,24 @@
       <div class="bg-white p-4 rounded w-1/3">
         <h2 class="mb-2">User Login</h2>
         <form class="modal-content animate" action="/action_page.php">
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit">Login</button>
-
-    </div>
-
-
-  </form>
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              required
+            />
+            <label for="psw"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+            <button type="submit">Login</button>
+          </div>
+        </form>
         <button @click="modalAction()" class="mt-4 closebtn">
           Close
         </button>
@@ -53,7 +57,8 @@ export default {
 };
 </script>
 <style scoped>
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -62,8 +67,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: green;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;

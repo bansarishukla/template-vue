@@ -192,12 +192,9 @@
             <div class="card-header">
               <p class="font-formation text-left">
                 VISITOR GRAPH<span class="pull-right icons_formation">
-                  <i
-                    class="fa fa-refresh icons_formation"
-                    aria-hidden="true"></i>
-                  <i
-                    class="fa fa-caret-down icons_formation"
-                    aria-hidden="true"></i>
+                  <i class="fa fa-refresh icons_formation" aria-hidden="true" />
+                  <i class="fa fa-caret-down icons_formation" />
+                  <!-- </i> -->
                   <i class="fa fa-times icons_formation" aria-hidden="true"></i>
                 </span>
               </p>
@@ -217,8 +214,10 @@
                 RANDOM GRAPH<span class="pull-right icons_formation">
                   <i class="fa fa-refresh icons_formation" aria-hidden="true">
                   </i>
-                  <i class="fa fa-caret-down icons_formation" aria-hidden="true">
-                  </i>
+                  <i
+                    class="fa fa-caret-down icons_formation"
+                    aria-hidden="true"
+                  />
                   <i class="fa fa-times icons_formation" aria-hidden="true"></i>
                 </span>
               </p>
