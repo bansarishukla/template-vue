@@ -77,7 +77,6 @@ export default {
   color: #808a93;
 }
 .navbar-toggler-icon {
-  /* background: white; */
   background-color: dimgray;
 }
 .alignment {
@@ -85,12 +84,8 @@ export default {
 }
 .formation {
   color: #808a93;
-  /* padding: 7px; */
-  /* padding-top: 3px; */
   padding-bottom: 1px;
   margin: 5px;
   font-weight: bold;
-  /* position: absolute; */
-  /* margin: 7px 0 0 0; */
 }
 </style>

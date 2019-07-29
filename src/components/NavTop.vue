@@ -24,14 +24,13 @@
                 type="search"
                 placeholder="Search from here...."
                 aria-label="Search"
-
               />
             </form>
           </ul>
           <div class="arrange fa-spacing">
             <i class="fa fa-bell-o space" aria-hidden="true"></i>
             <i class="fa fa-envelope-o space" aria-hidden="true"></i>
-            <li class="nav-item dropdown effect">
+            <li class="nav-item dropdown effect  ">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -51,6 +50,7 @@
               </div>
             </li>
           </div>
+          <p class="pipe">||</p>
         </div>
       </div>
     </nav>
@@ -138,16 +138,23 @@ ul li {
   flex-direction: row;
   display: flex;
 }
+.pipe {
+  padding: 0 17%;
+  margin: 1%;
+}
 @media (max-width: 1135px) {
   .arrange {
     flex-direction: row;
     display: flex;
   }
   .effect {
-    margin: 6% 1% 0 1%;
+    margin: 5% 1% 0 1%;
   }
   .form-control {
     width: 400px;
+  }
+  .pipe {
+    display: none;
   }
 }
 </style>

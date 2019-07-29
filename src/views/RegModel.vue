@@ -1,7 +1,7 @@
 <template>
   <div>
     <a @click="modalAction()" class="pull-right alignment text-secondary">
-      Login /
+      Registration
     </a>
 
     <div
@@ -10,14 +10,14 @@
       h-screen w-full flex items-center justify-center"
     >
       <div class="bg-white p-4 rounded w-1/3">
-        <h2 class="mb-2">User Login</h2>
-        <form class="modal-content animate" action="/action_page.php">
+        <h2 class="mb-2">User Registration</h2>
+        <form action="action_page.php">
           <div class="container">
-            <label for="uname"><b>Username</b></label>
+            <label for="email"><b>Email</b></label>
             <input
               type="text"
-              placeholder="Enter Username"
-              name="uname"
+              placeholder="Enter Email"
+              name="email"
               required
             />
             <label for="psw"><b>Password</b></label>
@@ -27,7 +27,14 @@
               name="psw"
               required
             />
-            <button type="submit">Login</button>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input
+              type="password"
+              placeholder="Repeat Password"
+              name="psw-repeat"
+              required
+            />
+            <button type="submit" class="registerbtn">Register</button>
           </div>
         </form>
         <button @click="modalAction()" class="mt-4 closebtn">
@@ -84,5 +91,8 @@ button:hover {
 .alignment {
   padding: 9px;
   color: #6c757d;
+}
+.reg {
+  padding: 10px 0;
 }
 </style>
