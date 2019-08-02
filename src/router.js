@@ -8,6 +8,7 @@ import Data from "./views/Data.vue";
 import Forms from "./views/Forms.vue";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
+import modal from "../src/views/modal.vue";
 
 Vue.use(Router);
 export default new Router({
@@ -51,6 +52,11 @@ export default new Router({
       path: "/about",
       name: "about",
       component: About
+    },
+    {
+      path: "/modal",
+      name: "modal",
+      component: modal
     }
   ]
 });

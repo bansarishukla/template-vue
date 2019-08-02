@@ -54,6 +54,11 @@
                 Forms
               </router-link>
             </li>
+            <li class="nav-item">
+              <router-link to="/modal" class="nav-link text-secondary" href="#">
+                modal
+              </router-link>
+            </li>
           </ul>
         </div>
       </div>
@@ -75,6 +80,7 @@ export default {
 .navbar {
   background-color: #2e3e4e;
   color: #808a93;
+  /* position: absolute; */
 }
 .navbar-toggler-icon {
   background-color: dimgray;

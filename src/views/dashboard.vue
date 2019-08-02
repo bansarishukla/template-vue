@@ -10,8 +10,8 @@
             </p>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <RegModal />
-                <modal />
+                <!-- <RegModal /> -->
+                <!-- <modal /> -->
               </li>
             </ul>
           </div>
@@ -228,7 +228,6 @@ import DoughnutChart from "./DoughnutChart";
 import PieChart from "./PieChart";
 import LineChartBottom from "./LineChartBottom";
 import modal from "./modal";
-import RegModal from "./RegModel";
 export default {
   components: {
     BarChart,
@@ -236,8 +235,7 @@ export default {
     DoughnutChart,
     PieChart,
     LineChartBottom,
-    modal,
-    RegModal
+    modal
   }
 };
 </script>
