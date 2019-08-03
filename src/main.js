@@ -5,12 +5,14 @@ import router from "./router";
 import "chart.js";
 import VModal from "vue-js-modal";
 import Modal from "../src/components/Modal";
+import Vuelidate from "vuelidate";
 
 Vue.use(VModal);
 Vue.use(Modal);
 Vue.component("NavTop", require("./components/NavTop.vue").default);
 Vue.component("NavBottom", require("./components/NavBottom.vue").default);
 Vue.component("Modal", Modal);
+Vue.use(Vuelidate);
 Vue.config.productionTip = false;
 
 new Vue({

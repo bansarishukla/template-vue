@@ -41,11 +41,13 @@ export default {
 .modal {
   position: relative;
   width: 500px;
-  max-width: 80%;
+  max-width: 30%;
+  max-height: 30%;
   background: white;
   border-radius: 4px;
   padding: 2.5em;
   box-shadow: 0 5px 11px rgba(36, 37, 38, 0.08);
+  display: block;
 }
 .modal .close {
   position: absolute;

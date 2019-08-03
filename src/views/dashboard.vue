@@ -8,12 +8,6 @@
               Admin Dashboard
               <span style="font-size: 10px;">hello everyone</span>
             </p>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <!-- <RegModal /> -->
-                <!-- <modal /> -->
-              </li>
-            </ul>
           </div>
         </div>
       </div>
