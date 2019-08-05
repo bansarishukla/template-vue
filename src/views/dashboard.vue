@@ -8,6 +8,24 @@
               Admin Dashboard
               <span style="font-size: 10px;">hello everyone</span>
             </p>
+            <li class="nav-item">
+              <router-link
+                to="/about"
+                class="nav-link text-secondary  pull-right"
+                href="#"
+              >
+                About
+              </router-link>
+            </li>
+            <li>
+              <router-link
+                to="/home"
+                class="nav-link text-secondary pull-right"
+                href=""
+              >
+                Home /
+              </router-link>
+            </li>
           </div>
         </div>
       </div>
@@ -221,15 +239,13 @@ import LineChart from "./LineChart";
 import DoughnutChart from "./DoughnutChart";
 import PieChart from "./PieChart";
 import LineChartBottom from "./LineChartBottom";
-import modal from "./modal";
 export default {
   components: {
     BarChart,
     LineChart,
     DoughnutChart,
     PieChart,
-    LineChartBottom,
-    modal
+    LineChartBottom
   }
 };
 </script>
@@ -275,5 +291,8 @@ h1 {
 }
 .card-header {
   background-color: white;
+}
+li {
+  list-style: none;
 }
 </style>
