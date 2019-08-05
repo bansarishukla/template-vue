@@ -11,12 +11,12 @@
         tempor incididunt ut labore.
       </p>
       <template v-slot:footer>
-        <button
-          @click="$modal.hide('cancel-modal')"
+        <a
+          href="#"
           class="bg-gray-500 py-2 px-4 rounded-lg text-white hover:bg-gray-600 mr-2"
         >
           Cancel
-        </button>
+        </a>
         <a
           href="#confirm-cancel-modal"
           class="bg-blue-500 py-2 px-4 rounded-lg text-white hover:bg-blue-600"
