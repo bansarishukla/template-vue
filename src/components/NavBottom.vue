@@ -1,69 +1,61 @@
 <template>
-  <div class="hello">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#"></a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container ">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <router-link to="/" class="nav-link text-secondary" href="#">
+            Dashboard
+          </router-link>
+        </li>
+        <li class="nav-item ">
+          <router-link
+            to="/Components"
+            class="nav-link text-secondary"
+            href="#"
+          >
+            Components
+          </router-link>
+        </li>
+        <li class="nav-item ">
+          <router-link to="/Features" class="nav-link text-secondary" href="#">
+            Features
+          </router-link>
+        </li>
+        <li class="nav-item ">
+          <router-link to="/Apps" class="nav-link text-secondary" href="#">
+            Apps
+          </router-link>
+        </li>
+        <li class="nav-item ">
+          <router-link to="/Data" class="nav-link text-secondary" href="#">
+            Data-tables
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/Forms" class="nav-link text-secondary" href="#">
+            Forms
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/modal" class="nav-link text-secondary" href="#">
+            modal
+          </router-link>
+        </li>
+      </ul>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="container-fluid alignment">
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link to="/" class="nav-link text-secondary" href="#">
-                Dashboard
-              </router-link>
-            </li>
-            <li class="nav-item ">
-              <router-link
-                to="/Components"
-                class="nav-link text-secondary"
-                href="#"
-              >
-                Components
-              </router-link>
-            </li>
-            <li class="nav-item ">
-              <router-link
-                to="/Features"
-                class="nav-link text-secondary"
-                href="#"
-              >
-                Features
-              </router-link>
-            </li>
-            <li class="nav-item ">
-              <router-link to="/Apps" class="nav-link text-secondary" href="#">
-                Apps
-              </router-link>
-            </li>
-            <li class="nav-item ">
-              <router-link to="/Data" class="nav-link text-secondary" href="#">
-                Data-tables
-              </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link to="/Forms" class="nav-link text-secondary" href="#">
-                Forms
-              </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link to="/modal" class="nav-link text-secondary" href="#">
-                modal
-              </router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+    </div>
+  </nav>
 </template>
 
 <script>
@@ -75,18 +67,20 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+body {
+  overflow-x: hidden;
+}
+.container {
+  padding: 0 0 0 0;
+}
 .navbar {
   background-color: #2e3e4e;
   color: #808a93;
-  /* position: absolute; */
+  overflow-x: hidden;
 }
 .navbar-toggler-icon {
   background-color: dimgray;
-}
-.alignment {
-  margin: 0 0 0 17.5%;
 }
 .formation {
   color: #808a93;

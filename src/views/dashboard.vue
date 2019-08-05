@@ -8,24 +8,27 @@
               Admin Dashboard
               <span style="font-size: 10px;">hello everyone</span>
             </p>
-            <li class="nav-item">
-              <router-link
-                to="/about"
-                class="nav-link text-secondary  pull-right"
-                href="#"
-              >
-                About
-              </router-link>
-            </li>
-            <li>
-              <router-link
-                to="/home"
-                class="nav-link text-secondary pull-right"
-                href=""
-              >
-                Home /
-              </router-link>
-            </li>
+            <ol>
+              <li class="nav-item">
+                <router-link
+                  to="/about"
+                  class="nav-link text-secondary  pull-right"
+                  href="#"
+                >
+                  About
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/home"
+                  class="nav-link text-secondary pull-right"
+                  href=""
+                >
+                  Home /
+                </router-link>
+              </li>
+            </ol>
+
           </div>
         </div>
       </div>

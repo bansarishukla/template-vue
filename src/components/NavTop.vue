@@ -1,65 +1,49 @@
 <template>
-  <div class="hello1">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container ">
-        <i class="fa fa-home bbb" aria-hidden="true"></i>
-        <h5 class="colour">MEGA<span class="colour2">DIN</span></h5>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <form class="form-inline my-2 my-lg-0 spacing input-icons aaa">
-              <i class="fa fa-search pos" aria-hidden="true"></i>
-              <input
-                class="form-control mr-sm-2 icon_spacing"
-                type="search"
-                placeholder="Search from here...."
-                aria-label="Search"
-              />
-            </form>
-          </ul>
-          <div class="arrange fa-spacing">
-            <i class="fa fa-bell-o space" aria-hidden="true"></i>
-            <i class="fa fa-envelope-o space" aria-hidden="true"></i>
-            <li class="nav-item dropdown effect  ">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                User
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </div>
-          <p class="pipe">||</p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container ">
+      <i class="fa fa-home bbb" aria-hidden="true"></i>
+      <h5 class="colour">MEGA<span class="colour2">DIN</span></h5>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <form class="form-inline my-2 my-lg-0 spacing input-icons aaa">
+            <i class="fa fa-search pos" aria-hidden="true"></i>
+            <input
+              class="form-control mr-sm-2 icon_spacing"
+              type="search"
+              placeholder="Search from here...."
+              aria-label="Search"
+            />
+          </form>
+        </ul>
+        <div class="arrange fa-spacing">
+          <i class="fa fa-bell-o space" aria-hidden="true"></i>
+          <i class="fa fa-envelope-o space" aria-hidden="true"></i>
+          <p><DropdownMenu /></p>
         </div>
+        <p class="pipe">||</p>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
 <script>
+import DropdownMenu from "./DropdownMenu";
 export default {
   name: "NavTop",
+  components: {
+    DropdownMenu
+  },
   props: {
     msg: String
   }
@@ -91,7 +75,7 @@ export default {
   margin: 0 0 0 20%;
 }
 .space {
-  margin: 8% 8% 0 8%;
+  margin: 0 20px 0 20px;
 }
 .form-control {
   width: 500px;
@@ -139,8 +123,10 @@ ul li {
   display: flex;
 }
 .pipe {
-  padding: 0 17%;
-  margin: 1%;
+  margin-left: auto;
+}
+.pos {
+  padding: 0 20px 0 10px;
 }
 @media (max-width: 1135px) {
   .arrange {
