@@ -16,13 +16,17 @@
       <div class="w4 mt1 content" v-if="showDropDown">
         <ul class="menu list pl0 pa0 ma0">
           <li v-for="(link, index) in links" :key="index" class="list">
-            <a href="#" class="dd-link pointer hover-bg-moon-gray text-secondary">{{ link.name }}</a>
+            <a
+              href="#"
+              class="dd-link pointer hover-bg-moon-gray text-secondary"
+            >
+              {{ link.name }}
+            </a>
           </li>
         </ul>
       </div>
     </transition>
-    </div>
-
+  </div>
 </template>
 <script>
 export default {
@@ -45,39 +49,6 @@ export default {
 };
 </script>
 <style scoped>
-/* .menu {
-  .bg-near-white;
-  .b--solid;
-  .br--bottom;
-  .bw1;
-  .b--black-20;
-  .white-80;
-  .br2;
-}
-
-.menu li {
-  .ba;
-  .bl-0;
-  .bt-0;
-  .br-0;
-
-  &:not(:last-child) {
-    .b--solid;
-    .b--black-30;
-  }
-}
-
-.dd-link {
-  .f6;
-  .pa2;
-  .link;
-  .dim;
-  .w-100;
-  .h-100;
-  .dib;
-  .b--white-10;
-  .black-80;
-} */
 .slide-fade-enter-active {
   transition: all.3s ease;
 }
@@ -103,9 +74,6 @@ export default {
 .title {
   text-decoration: none;
 }
-/* .abc {
-   display: inline-block;
-} */
 .content {
   background-color: aliceblue;
 }

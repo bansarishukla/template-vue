@@ -1,47 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container ">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <router-link to="/" class="nav-link text-secondary" href="#">
-            Dashboard
-          </router-link>
-        </li>
-        <li class="nav-item ">
-          <router-link
-            to="/Components"
-            class="nav-link text-secondary"
-            href="#"
-          >
-            Components
-          </router-link>
-        </li>
-        <li class="nav-item ">
-          <router-link to="/Features" class="nav-link text-secondary" href="#">
-            Features
-          </router-link>
-        </li>
-        <li class="nav-item ">
-          <router-link to="/Apps" class="nav-link text-secondary" href="#">
-            Apps
-          </router-link>
-        </li>
-        <li class="nav-item ">
-          <router-link to="/Data" class="nav-link text-secondary" href="#">
-            Data-tables
-          </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/Forms" class="nav-link text-secondary" href="#">
-            Forms
-          </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/modal" class="nav-link text-secondary" href="#">
-            modal
-          </router-link>
-        </li>
-      </ul>
+      <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -53,11 +13,56 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link to="/" class="nav-link text-secondary" href="#">
+              Dashboard
+            </router-link>
+          </li>
+          <li class="nav-item ">
+            <router-link
+              to="/Components"
+              class="nav-link text-secondary"
+              href="#"
+            >
+              Components
+            </router-link>
+          </li>
+          <li class="nav-item ">
+            <router-link
+              to="/Features"
+              class="nav-link text-secondary"
+              href="#"
+            >
+              Features
+            </router-link>
+          </li>
+          <li class="nav-item ">
+            <router-link to="/Apps" class="nav-link text-secondary" href="#">
+              Apps
+            </router-link>
+          </li>
+          <li class="nav-item ">
+            <router-link to="/Data" class="nav-link text-secondary" href="#">
+              Data-tables
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/Forms" class="nav-link text-secondary" href="#">
+              Forms
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/modal" class="nav-link text-secondary" href="#">
+              modal
+            </router-link>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </template>
-
 <script>
 export default {
   name: "NavBarBottom",
@@ -69,7 +74,7 @@ export default {
 
 <style scoped>
 body {
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .container {
   padding: 0 0 0 0;
@@ -77,10 +82,9 @@ body {
 .navbar {
   background-color: #2e3e4e;
   color: #808a93;
-  overflow-x: hidden;
 }
-.navbar-toggler-icon {
-  background-color: dimgray;
+.navbar-toggler {
+  background: #eaeef3;
 }
 .formation {
   color: #808a93;

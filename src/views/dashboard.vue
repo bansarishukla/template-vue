@@ -8,27 +8,29 @@
               Admin Dashboard
               <span style="font-size: 10px;">hello everyone</span>
             </p>
-            <ol>
-              <li class="nav-item">
-                <router-link
-                  to="/about"
-                  class="nav-link text-secondary  pull-right"
-                  href="#"
-                >
-                  About
-                </router-link>
-              </li>
+            <div class="menu pull-right">
               <li>
                 <router-link
                   to="/home"
                   class="nav-link text-secondary pull-right"
                   href=""
                 >
-                  Home /
+                  Home
                 </router-link>
               </li>
-            </ol>
-
+              <li class="dash">
+                /
+              </li>
+              <li class="nav-item">
+                <router-link
+                  to="/about"
+                  class="nav-link text-secondary"
+                  href="#"
+                >
+                  About
+                </router-link>
+              </li>
+            </div>
           </div>
         </div>
       </div>
@@ -272,6 +274,12 @@ h1 {
   font-size: 25px;
   color: #929292;
   padding: 0px;
+}
+.menu {
+  display: flex;
+}
+.dash {
+  margin-top: 8px;
 }
 .income {
   text-align: left;
